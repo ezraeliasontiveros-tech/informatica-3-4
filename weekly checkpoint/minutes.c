@@ -7,6 +7,11 @@ int minutes;
 int start_time;
 printf("Movie running time:\n");
 scanf("%d", &minutes);
+int hours = total_minutes / 60;
+int minutes = total_minutes % 60;
+printf("equals:%d h %d min\n",hours,minutes);
+int start_h ,start_m;
+
 printf("start time:\n");
 scanf("%d", &start_time);
 
