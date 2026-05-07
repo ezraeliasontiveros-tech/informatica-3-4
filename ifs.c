@@ -5,7 +5,7 @@ int a = 5; //equal sign means assigment
 int b = 5;
 int c = 10;
 
-printf("%d == %d is %d \n", a,b,a==b); //Equal sign means comaprison
+printf("%d == %d is %d \n", a,b,a==b); //Equal sign means comparison
 printf("%d != %d is %d \n", a,c,a!=c); //!= means "not equal"
 
 //create a progam to check if a number is negative
