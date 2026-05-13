@@ -37,6 +37,8 @@ void f_to_c(void){
     printf("enter the temperature in Fahrenheit:");
     scanf("%f",&f);
     float c = (f - 32) / 1.8;
-    printf("%.2f°c =%.2f°F \n",f,c);
-    // falla lo ultimo
+    printf("%d°F =%.0f°C\n",f,c);
+
+
+
 }
